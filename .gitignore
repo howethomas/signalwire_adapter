@@ -1,0 +1,26 @@
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.iml
+
+# Ignore build and compilation files
+node_modules/
+build/
+dist/
+target/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Ignore configuration files
+.env
+config.json
+
+# Add your own custom ignores here...
+.venv/
