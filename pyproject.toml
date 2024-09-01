@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "signalwire-adapter"
+version = "0.1.0"
+description = "A vCon adapter for Signalwire"
+authors = ["Thomas Howe <ghostofbasho@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+signalwire = "^2.1.0"
+python-dotenv = "^1.0.1"
+vcon = "^0.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
