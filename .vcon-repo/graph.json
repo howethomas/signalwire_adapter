@@ -1,0 +1,397 @@
+{
+  "schema_version": "1.0.0",
+  "repo": "signalwire_adapter",
+  "repo_version": "0.1.0",
+  "archetype": "python-library",
+  "generated_at": "2026-04-16T15:15:45.302999+00:00",
+  "stats": {
+    "node_count": 57,
+    "edge_count": 0
+  },
+  "nodes": [
+    {
+      "id": "function:reset_global_state",
+      "type": "function",
+      "name": "reset_global_state",
+      "file": "conftest.py",
+      "line": 6
+    },
+    {
+      "id": "function:signal_handler",
+      "type": "function",
+      "name": "signal_handler",
+      "file": "signalwire_adapter.py",
+      "line": 91
+    },
+    {
+      "id": "function:load_processed_calls",
+      "type": "function",
+      "name": "load_processed_calls",
+      "file": "signalwire_adapter.py",
+      "line": 103
+    },
+    {
+      "id": "function:save_processed_calls",
+      "type": "function",
+      "name": "save_processed_calls",
+      "file": "signalwire_adapter.py",
+      "line": 116
+    },
+    {
+      "id": "function:cleanup_old_call_records",
+      "type": "function",
+      "name": "cleanup_old_call_records",
+      "file": "signalwire_adapter.py",
+      "line": 125
+    },
+    {
+      "id": "function:fetch_call_meta",
+      "type": "function",
+      "name": "fetch_call_meta",
+      "file": "signalwire_adapter.py",
+      "line": 169
+    },
+    {
+      "id": "function:fetch_new_recordings",
+      "type": "function",
+      "name": "fetch_new_recordings",
+      "file": "signalwire_adapter.py",
+      "line": 194
+    },
+    {
+      "id": "function:fetch_transcription",
+      "type": "function",
+      "name": "fetch_transcription",
+      "file": "signalwire_adapter.py",
+      "line": 222
+    },
+    {
+      "id": "function:format_to_e164",
+      "type": "function",
+      "name": "format_to_e164",
+      "file": "signalwire_adapter.py",
+      "line": 238
+    },
+    {
+      "id": "function:create_vcon_from_recordings",
+      "type": "function",
+      "name": "create_vcon_from_recordings",
+      "file": "signalwire_adapter.py",
+      "line": 261
+    },
+    {
+      "id": "function:download_recording",
+      "type": "function",
+      "name": "download_recording",
+      "file": "signalwire_adapter.py",
+      "line": 335
+    },
+    {
+      "id": "function:upload_recording_to_s3",
+      "type": "function",
+      "name": "upload_recording_to_s3",
+      "file": "signalwire_adapter.py",
+      "line": 343
+    },
+    {
+      "id": "function:write_vcon_to_file",
+      "type": "function",
+      "name": "write_vcon_to_file",
+      "file": "signalwire_adapter.py",
+      "line": 377
+    },
+    {
+      "id": "function:send_vcon_to_webhook",
+      "type": "function",
+      "name": "send_vcon_to_webhook",
+      "file": "signalwire_adapter.py",
+      "line": 396
+    },
+    {
+      "id": "function:process_recordings",
+      "type": "function",
+      "name": "process_recordings",
+      "file": "signalwire_adapter.py",
+      "line": 416
+    },
+    {
+      "id": "function:main",
+      "type": "function",
+      "name": "main",
+      "file": "signalwire_adapter.py",
+      "line": 460
+    },
+    {
+      "id": "function:mock_env_setup",
+      "type": "function",
+      "name": "mock_env_setup",
+      "file": "test_signalwire_adapter.py",
+      "line": 17
+    },
+    {
+      "id": "function:mock_recording",
+      "type": "function",
+      "name": "mock_recording",
+      "file": "test_signalwire_adapter.py",
+      "line": 27
+    },
+    {
+      "id": "function:mock_call_meta",
+      "type": "function",
+      "name": "mock_call_meta",
+      "file": "test_signalwire_adapter.py",
+      "line": 43
+    },
+    {
+      "id": "function:mock_transcription",
+      "type": "function",
+      "name": "mock_transcription",
+      "file": "test_signalwire_adapter.py",
+      "line": 54
+    },
+    {
+      "id": "function:test_fetch_call_meta",
+      "type": "function",
+      "name": "test_fetch_call_meta",
+      "file": "test_signalwire_adapter.py",
+      "line": 66
+    },
+    {
+      "id": "function:test_fetch_new_recordings",
+      "type": "function",
+      "name": "test_fetch_new_recordings",
+      "file": "test_signalwire_adapter.py",
+      "line": 84
+    },
+    {
+      "id": "function:test_fetch_new_recordings_failure",
+      "type": "function",
+      "name": "test_fetch_new_recordings_failure",
+      "file": "test_signalwire_adapter.py",
+      "line": 105
+    },
+    {
+      "id": "function:test_fetch_transcription",
+      "type": "function",
+      "name": "test_fetch_transcription",
+      "file": "test_signalwire_adapter.py",
+      "line": 118
+    },
+    {
+      "id": "function:test_fetch_transcription_failure",
+      "type": "function",
+      "name": "test_fetch_transcription_failure",
+      "file": "test_signalwire_adapter.py",
+      "line": 138
+    },
+    {
+      "id": "function:test_format_to_e164",
+      "type": "function",
+      "name": "test_format_to_e164",
+      "file": "test_signalwire_adapter.py",
+      "line": 149
+    },
+    {
+      "id": "function:test_create_vcon_from_recordings",
+      "type": "function",
+      "name": "test_create_vcon_from_recordings",
+      "file": "test_signalwire_adapter.py",
+      "line": 159
+    },
+    {
+      "id": "function:test_create_vcon_from_recording",
+      "type": "function",
+      "name": "test_create_vcon_from_recording",
+      "file": "test_signalwire_adapter.py",
+      "line": 176
+    },
+    {
+      "id": "function:test_write_vcon_to_file",
+      "type": "function",
+      "name": "test_write_vcon_to_file",
+      "file": "test_signalwire_adapter.py",
+      "line": 203
+    },
+    {
+      "id": "function:test_send_vcon_to_webhook_debug_mode",
+      "type": "function",
+      "name": "test_send_vcon_to_webhook_debug_mode",
+      "file": "test_signalwire_adapter.py",
+      "line": 221
+    },
+    {
+      "id": "function:test_send_vcon_to_webhook_normal_mode",
+      "type": "function",
+      "name": "test_send_vcon_to_webhook_normal_mode",
+      "file": "test_signalwire_adapter.py",
+      "line": 232
+    },
+    {
+      "id": "function:test_send_vcon_to_webhook_failure",
+      "type": "function",
+      "name": "test_send_vcon_to_webhook_failure",
+      "file": "test_signalwire_adapter.py",
+      "line": 256
+    },
+    {
+      "id": "function:test_process_recordings",
+      "type": "function",
+      "name": "test_process_recordings",
+      "file": "test_signalwire_adapter.py",
+      "line": 276
+    },
+    {
+      "id": "function:test_process_recordings_with_error",
+      "type": "function",
+      "name": "test_process_recordings_with_error",
+      "file": "test_signalwire_adapter.py",
+      "line": 299
+    },
+    {
+      "id": "function:test_main_function_normal_exit",
+      "type": "function",
+      "name": "test_main_function_normal_exit",
+      "file": "test_signalwire_adapter.py",
+      "line": 320
+    },
+    {
+      "id": "function:test_main_function_with_process_error",
+      "type": "function",
+      "name": "test_main_function_with_process_error",
+      "file": "test_signalwire_adapter.py",
+      "line": 345
+    },
+    {
+      "id": "function:test_upload_recording_to_s3_presigned_url",
+      "type": "function",
+      "name": "test_upload_recording_to_s3_presigned_url",
+      "file": "test_signalwire_adapter.py",
+      "line": 366
+    },
+    {
+      "id": "function:test_upload_recording_to_s3_raises_on_client_error",
+      "type": "function",
+      "name": "test_upload_recording_to_s3_raises_on_client_error",
+      "file": "test_signalwire_adapter.py",
+      "line": 393
+    },
+    {
+      "id": "function:test_create_vcon_from_recordings_uses_s3_when_enabled",
+      "type": "function",
+      "name": "test_create_vcon_from_recordings_uses_s3_when_enabled",
+      "file": "test_signalwire_adapter.py",
+      "line": 411
+    },
+    {
+      "id": "function:test_create_vcon_from_recordings_skips_s3_when_disabled",
+      "type": "function",
+      "name": "test_create_vcon_from_recordings_skips_s3_when_disabled",
+      "file": "test_signalwire_adapter.py",
+      "line": 427
+    },
+    {
+      "id": "config:DEBUG_DIR",
+      "type": "config",
+      "name": "DEBUG_DIR",
+      "file": "signalwire_adapter.py"
+    },
+    {
+      "id": "config:DEBUG_MODE",
+      "type": "config",
+      "name": "DEBUG_MODE",
+      "file": "signalwire_adapter.py"
+    },
+    {
+      "id": "config:POLL_INTERVAL",
+      "type": "config",
+      "name": "POLL_INTERVAL",
+      "file": "signalwire_adapter.py"
+    },
+    {
+      "id": "config:PROCESSED_CALLS_FILE",
+      "type": "config",
+      "name": "PROCESSED_CALLS_FILE",
+      "file": "signalwire_adapter.py"
+    },
+    {
+      "id": "config:RETENTION_DAYS",
+      "type": "config",
+      "name": "RETENTION_DAYS",
+      "file": "signalwire_adapter.py"
+    },
+    {
+      "id": "config:S3_BUCKET",
+      "type": "config",
+      "name": "S3_BUCKET",
+      "file": "signalwire_adapter.py"
+    },
+    {
+      "id": "config:S3_ENABLED",
+      "type": "config",
+      "name": "S3_ENABLED",
+      "file": "signalwire_adapter.py"
+    },
+    {
+      "id": "config:S3_KEY_PREFIX",
+      "type": "config",
+      "name": "S3_KEY_PREFIX",
+      "file": "signalwire_adapter.py"
+    },
+    {
+      "id": "config:S3_PRESIGN_EXPIRY",
+      "type": "config",
+      "name": "S3_PRESIGN_EXPIRY",
+      "file": "signalwire_adapter.py"
+    },
+    {
+      "id": "config:SIGNALWIRE_AUTH_TOKEN",
+      "type": "config",
+      "name": "SIGNALWIRE_AUTH_TOKEN",
+      "file": "signalwire_adapter.py"
+    },
+    {
+      "id": "config:SIGNALWIRE_PROJECT_ID",
+      "type": "config",
+      "name": "SIGNALWIRE_PROJECT_ID",
+      "file": "signalwire_adapter.py"
+    },
+    {
+      "id": "config:SIGNALWIRE_SPACE_URL",
+      "type": "config",
+      "name": "SIGNALWIRE_SPACE_URL",
+      "file": "signalwire_adapter.py"
+    },
+    {
+      "id": "config:WEBHOOK_AUTH_HEADER_NAME",
+      "type": "config",
+      "name": "WEBHOOK_AUTH_HEADER_NAME",
+      "file": "signalwire_adapter.py"
+    },
+    {
+      "id": "config:WEBHOOK_AUTH_HEADER_VALUE",
+      "type": "config",
+      "name": "WEBHOOK_AUTH_HEADER_VALUE",
+      "file": "signalwire_adapter.py"
+    },
+    {
+      "id": "config:WEBHOOK_URL",
+      "type": "config",
+      "name": "WEBHOOK_URL",
+      "file": "signalwire_adapter.py"
+    },
+    {
+      "id": "artifact:docker-image",
+      "type": "artifact",
+      "name": "Docker image",
+      "file": "Dockerfile"
+    },
+    {
+      "id": "document:readme-md",
+      "type": "document",
+      "name": "README.md",
+      "file": "README.md"
+    }
+  ],
+  "edges": [],
+  "subsystems": []
+}
